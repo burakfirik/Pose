@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<poseur_pose>
+     <pose_width>256</pose_width>
+     <pose_height>256</pose_height>
+     <num_shapes>4</num_shapes>
+     <shapes_list>
+          <poseur_shape>
+               <outline_thickness>1</outline_thickness>
+               <outline_color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+               </outline_color>
+               <fill_color>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>255</blue>
+               </fill_color>
+               <alpha>255</alpha>
+               <geometry height="220.0" shape_type="RECTANGLE" width="227.0" x="12.0" y="14.0"/>
+          </poseur_shape>
+          <poseur_shape>
+               <outline_thickness>1</outline_thickness>
+               <outline_color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+               </outline_color>
+               <fill_color>
+                    <red>0</red>
+                    <green>204</green>
+                    <blue>153</blue>
+               </fill_color>
+               <alpha>255</alpha>
+               <geometry height="187.0" shape_type="ELLIPSE" width="194.0" x="26.0" y="19.0"/>
+          </poseur_shape>
+          <poseur_shape>
+               <outline_thickness>9</outline_thickness>
+               <outline_color>
+                    <red>0</red>
+                    <green>255</green>
+                    <blue>255</blue>
+               </outline_color>
+               <fill_color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>0</blue>
+               </fill_color>
+               <alpha>255</alpha>
+               <geometry shape_type="LINE" x1="119.0" x2="125.0" y1="59.0" y2="193.0"/>
+          </poseur_shape>
+          <poseur_shape>
+               <outline_thickness>9</outline_thickness>
+               <outline_color>
+                    <red>0</red>
+                    <green>255</green>
+                    <blue>255</blue>
+               </outline_color>
+               <fill_color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>0</blue>
+               </fill_color>
+               <alpha>255</alpha>
+               <geometry shape_type="LINE" x1="46.0" x2="183.0" y1="114.0" y2="133.0"/>
+          </poseur_shape>
+     </shapes_list>
+</poseur_pose>

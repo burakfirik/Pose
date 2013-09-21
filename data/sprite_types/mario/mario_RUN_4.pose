@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<poseur_pose>
+     <pose_width>256</pose_width>
+     <pose_height>256</pose_height>
+     <num_shapes>6</num_shapes>
+     <shapes_list>
+          <poseur_shape>
+               <outline_thickness>1</outline_thickness>
+               <outline_color>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>0</blue>
+               </outline_color>
+               <fill_color>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>0</blue>
+               </fill_color>
+               <alpha>255</alpha>
+               <geometry height="125.0" shape_type="ELLIPSE" width="101.0" x="75.0" y="38.0"/>
+          </poseur_shape>
+          <poseur_shape>
+               <outline_thickness>1</outline_thickness>
+               <outline_color>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>0</blue>
+               </outline_color>
+               <fill_color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+               </fill_color>
+               <alpha>255</alpha>
+               <geometry height="1.0" shape_type="ELLIPSE" width="0.0" x="117.0" y="137.0"/>
+          </poseur_shape>
+          <poseur_shape>
+               <outline_thickness>1</outline_thickness>
+               <outline_color>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>0</blue>
+               </outline_color>
+               <fill_color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>255</blue>
+               </fill_color>
+               <alpha>255</alpha>
+               <geometry height="46.0" shape_type="ELLIPSE" width="25.0" x="106.0" y="172.0"/>
+          </poseur_shape>
+          <poseur_shape>
+               <outline_thickness>1</outline_thickness>
+               <outline_color>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>0</blue>
+               </outline_color>
+               <fill_color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>255</blue>
+               </fill_color>
+               <alpha>255</alpha>
+               <geometry height="1.0" shape_type="ELLIPSE" width="0.0" x="71.0" y="98.0"/>
+          </poseur_shape>
+          <poseur_shape>
+               <outline_thickness>1</outline_thickness>
+               <outline_color>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>0</blue>
+               </outline_color>
+               <fill_color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>0</blue>
+               </fill_color>
+               <alpha>255</alpha>
+               <geometry height="54.0" shape_type="RECTANGLE" width="118.0" x="67.0" y="19.0"/>
+          </poseur_shape>
+          <poseur_shape>
+               <outline_thickness>1</outline_thickness>
+               <outline_color>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>0</blue>
+               </outline_color>
+               <fill_color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>0</blue>
+               </fill_color>
+               <alpha>255</alpha>
+               <geometry height="71.0" shape_type="RECTANGLE" width="38.0" x="32.0" y="127.0"/>
+          </poseur_shape>
+     </shapes_list>
+</poseur_pose>

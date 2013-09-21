@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="poseur_pose">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pose_width" type="xs:int"/>
+                <xs:element name="pose_height" type="xs:int"/>
+                <xs:element name="num_shapes" type="xs:int"/>
+                <xs:element name="shapes_list" minOccurs="0" maxOccurs="1000">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="poseur_shape" minOccurs="0" maxOccurs="1000">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="outline_thickness">
+                                            <xs:simpleType>         
+                                                <xs:restriction base="xs:int">
+                                                    <xs:minInclusive value="1" />
+                                                    <xs:maxInclusive value="9" />
+                                                </xs:restriction>                                           
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="outline_color" minOccurs="1" maxOccurs="1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="red">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:int">
+                                                                <xs:minInclusive value="0" />
+                                                                <xs:maxInclusive value="255" />
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="green">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:int">
+                                                                <xs:minInclusive value="0" />
+                                                                <xs:maxInclusive value="255" />
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>                        
+                                                    <xs:element name="blue">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:int">
+                                                                <xs:minInclusive value="0" />
+                                                                <xs:maxInclusive value="255" />
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>                      
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="fill_color" minOccurs="1" maxOccurs="1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="red">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:int">
+                                                                <xs:minInclusive value="0" />
+                                                                <xs:maxInclusive value="255" />
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="green">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:int">
+                                                                <xs:minInclusive value="0" />
+                                                                <xs:maxInclusive value="255" />
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>                        
+                                                    <xs:element name="blue">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:int">
+                                                                <xs:minInclusive value="0" />
+                                                                <xs:maxInclusive value="255" />
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>                 
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="alpha">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:int">
+                                                    <xs:minInclusive value="0" />
+                                                    <xs:maxInclusive value="255" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>         
+                                        <xs:element name="geometry">
+                                            <xs:complexType>
+                                                <xs:attribute name="shape_type" type="xs:string"/>
+                                                <xs:attribute name="x" type="xs:decimal"/>
+                                                <xs:attribute name="y" type="xs:decimal"/>
+                                                <xs:attribute name="width" type="xs:decimal"/>
+                                                <xs:attribute name="height" type="xs:decimal"/>
+                                                <xs:attribute name="x1" type="xs:decimal"/>
+                                                <xs:attribute name="y1" type="xs:decimal"/>
+                                                <xs:attribute name="x2" type="xs:decimal"/>
+                                                <xs:attribute name="y2" type="xs:decimal"/>
+                                            </xs:complexType>
+                                       </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>                 
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

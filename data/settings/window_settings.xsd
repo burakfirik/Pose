@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="window_settings">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="app_title" type="xs:string"/>
+      <xs:element name="window_dimensions">
+          <xs:complexType>
+              <xs:sequence>
+                  <xs:element name="window_width"/>
+                  <xs:element name="window_height"/>                               
+              </xs:sequence>
+          </xs:complexType>
+      </xs:element>
+      <xs:element name="window_resizable" type="xs:boolean"/>
+      <xs:element name="window_centered" type="xs:boolean"/>
+   </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>

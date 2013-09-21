@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type>
+     <width>128</width>
+     <height>128</height>
+     <images_list>
+          <image_file file_name="mario_RUN_3.png" id="3"/>
+          <image_file file_name="mario_RUN_4.png" id="4"/>
+     </images_list>
+     <animations_list>
+          <animation_state>
+               <state>RUN</state>
+               <animation_sequence>
+                    <pose duration="10" image_id="3"/>
+                    <pose duration="10" image_id="4"/>
+               </animation_sequence>
+          </animation_state>
+     </animations_list>
+</sprite_type>

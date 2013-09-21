@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="color_pallet">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pallet_size" type="xs:positiveInteger"/>
+                <xs:element name="pallet_rows" type="xs:positiveInteger"/>
+                <xs:element name="default_color" minOccurs="1" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="red">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:int">
+                                        <xs:minInclusive value="0" />
+                                        <xs:maxInclusive value="255" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="green">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:int">
+                                        <xs:minInclusive value="0" />
+                                        <xs:maxInclusive value="255" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>                        
+                            <xs:element name="blue">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:int">
+                                        <xs:minInclusive value="0" />
+                                        <xs:maxInclusive value="255" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>                   
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>                
+                <xs:element name="pallet_color" minOccurs="1" maxOccurs="100">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="red">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:int">
+                                        <xs:minInclusive value="0" />
+                                        <xs:maxInclusive value="255" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="green">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:int">
+                                        <xs:minInclusive value="0" />
+                                        <xs:maxInclusive value="255" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>                        
+                            <xs:element name="blue">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:int">
+                                        <xs:minInclusive value="0" />
+                                        <xs:maxInclusive value="255" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>                   
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

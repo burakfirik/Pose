@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<window_settings>
+    <app_title>Poseur</app_title>
+    <window_dimensions>
+        <window_width>1115</window_width>
+        <window_height>700</window_height>
+    </window_dimensions>
+    <window_resizable>false</window_resizable>
+    <window_centered>true</window_centered>
+</window_settings>

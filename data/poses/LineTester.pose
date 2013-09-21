@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<poseur_pose>
+     <pose_width>256</pose_width>
+     <pose_height>256</pose_height>
+     <num_shapes>0</num_shapes>
+     <shapes_list/>
+</poseur_pose>

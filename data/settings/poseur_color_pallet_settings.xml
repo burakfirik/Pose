@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<color_pallet>
+    <pallet_size>20</pallet_size>
+    <pallet_rows>2</pallet_rows>
+    <default_color><red>200</red><green>200</green><blue>200</blue></default_color> <!-- LIGHT GRAY -->
+    <pallet_color><red>0</red><green>0</green><blue>0</blue></pallet_color>         <!-- BLACK -->
+    <pallet_color><red>255</red><green>0</green><blue>0</blue></pallet_color>       <!-- RED -->
+    <pallet_color><red>0</red><green>255</green><blue>0</blue></pallet_color>       <!-- GREEN -->
+    <pallet_color><red>0</red><green>0</green><blue>255</blue></pallet_color>       <!-- BLUE -->
+    <pallet_color><red>255</red><green>255</green><blue>0</blue></pallet_color>     <!-- YELLOW -->
+    <pallet_color><red>255</red><green>0</green><blue>255</blue></pallet_color>     <!-- MAGENTA -->
+    <pallet_color><red>0</red><green>255</green><blue>255</blue></pallet_color>     <!-- CYAN -->
+    <pallet_color><red>190</red><green>0</green><blue>0</blue></pallet_color>       <!-- DARK RED -->
+    <pallet_color><red>0</red><green>190</green><blue>0</blue></pallet_color>       <!-- DARK GREEN -->
+    <pallet_color><red>0</red><green>0</green><blue>190</blue></pallet_color>       <!-- DARK BLUE -->
+    <pallet_color><red>255</red><green>255</green><blue>255</blue></pallet_color>   <!-- WHITE -->
+    <pallet_color><red>100</red><green>100</green><blue>100</blue></pallet_color>   <!-- GRAY -->
+</color_pallet>

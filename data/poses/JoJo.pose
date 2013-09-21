@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<poseur_pose>
+     <pose_width>256</pose_width>
+     <pose_height>256</pose_height>
+     <num_shapes>1</num_shapes>
+     <shapes_list>
+          <poseur_shape>
+               <outline_thickness>1</outline_thickness>
+               <outline_color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>0</blue>
+               </outline_color>
+               <fill_color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>0</blue>
+               </fill_color>
+               <alpha>255</alpha>
+               <geometry height="191.0" shape_type="ELLIPSE" width="194.0" x="33.0" y="29.0"/>
+          </poseur_shape>
+     </shapes_list>
+</poseur_pose>
