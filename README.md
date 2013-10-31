@@ -1,4 +1,4 @@
-Pose
+Pose(This is Software Design Doc)
 ====
 The Animated Poseur
 Software Requirements Specification
